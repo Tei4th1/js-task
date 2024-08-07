@@ -20,6 +20,7 @@
  */
 function concatenateStrings(/* value1, value2 */) {
   throw new Error('Not implemented');
+  console.log(value1 + value2)
 }
 
 
@@ -36,6 +37,7 @@ function concatenateStrings(/* value1, value2 */) {
  */
 function getStringLength(/* value */) {
   throw new Error('Not implemented');
+  console.log(length(value))
 }
 
 /**
