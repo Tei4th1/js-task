@@ -35,7 +35,8 @@ function findElement(arr, value) {
  *    5 => [ 1, 3, 5, 7, 9 ]
  */
 function generateOdds(/* len */) {
-  throw new Error('Not implemented');
+  const arr = {};
+  return arr.filter((len) => len % 2 !== 0);
 }
 
 /**
